@@ -34,7 +34,11 @@ namespace ConsoleAPlication
         }
         static void Main(string[] args)
         {
-           
+           double side1=Convert.ToDouble(Console.ReadLine());
+           double side2=Convert.ToDouble(Console.ReadLine());
+           Rectangle rectangle=new Rectangle(side1,side2);
+           Console.WriteLine(rectangle.Area);
+           Console.WriteLine(rectangle.Perimetr);
         }
     }
 }
